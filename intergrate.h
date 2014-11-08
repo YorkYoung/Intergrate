@@ -5,6 +5,10 @@
 #include <vector>
 #include <functional>
 
+#if __cplusplus < 201103
+#error This header file needs c++11 support.
+#endif
+
 namespace Omega
 {
 	using namespace std;
